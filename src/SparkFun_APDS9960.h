@@ -332,15 +332,15 @@ private:
     int wireReadDataBlock(uint8_t reg, uint8_t *val, unsigned int len);
 
     /* Members */
-    gesture_data_type gesture_data_;
-    int gesture_ud_delta_;
-    int gesture_lr_delta_;
-    int gesture_ud_count_;
-    int gesture_lr_count_;
-    int gesture_near_count_;
-    int gesture_far_count_;
-    int gesture_state_;
-    int gesture_motion_;
+    // gesture_data_type gesture_data_;
+    // int gesture_ud_delta_;
+    // int gesture_lr_delta_;
+    // int gesture_ud_count_;
+    // int gesture_lr_count_;
+    // int gesture_near_count_;
+    // int gesture_far_count_;
+    // int gesture_state_;
+    // int gesture_motion_;
 };
 
 #endif
