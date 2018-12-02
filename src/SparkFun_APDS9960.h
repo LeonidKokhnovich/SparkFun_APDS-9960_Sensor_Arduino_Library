@@ -202,16 +202,16 @@ enum {
 };
 
 /* Container for gesture data */
-typedef struct gesture_data_type {
-    uint8_t u_data[32];
-    uint8_t d_data[32];
-    uint8_t l_data[32];
-    uint8_t r_data[32];
-    uint8_t index;
-    uint8_t total_gestures;
-    uint8_t in_threshold;
-    uint8_t out_threshold;
-} gesture_data_type;
+// typedef struct gesture_data_type {
+//     uint8_t u_data[32];
+//     uint8_t d_data[32];
+//     uint8_t l_data[32];
+//     uint8_t r_data[32];
+//     uint8_t index;
+//     uint8_t total_gestures;
+//     uint8_t in_threshold;
+//     uint8_t out_threshold;
+// } gesture_data_type;
 
 /* APDS9960 Class */
 class SparkFun_APDS9960 {
