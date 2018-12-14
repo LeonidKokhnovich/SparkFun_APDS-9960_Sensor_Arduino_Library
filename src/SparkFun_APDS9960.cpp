@@ -569,6 +569,7 @@ int SparkFun_APDS9960::readGesture()
 //             return motion;
 //         }
 //     }
+    return -1;
 }
 
 /**
